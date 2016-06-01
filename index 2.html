@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Water Resources Mapping</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+       
+<style>
+        body {
+            padding: 10px;
+            margin: 10px;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+         <script src="js/Main.js"> </script>
+</head>
+<body onLoad="javascript:init();">
+<h2> Sample Water Resources Mapping</h2>
+<p>This is a sample open source application that shows the distribution water resources (water points,boreholes etc), their current status and the catchment population served.</p>
+<p> The blue icons show 'operational' resources while red color depicts 'null' or 'ditto' status.Just Zoom to and click on any of the markers to get its attribute info.</p>	
+	<div id="map" ></div>
+	
+</body>
+</html>
+
